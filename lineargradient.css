@@ -1,0 +1,7 @@
+.gradients{
+	height: 600px;
+	width: 100%;
+	background-color: green;
+	background-image:repeating-radial-gradient(red 5%,green 10%,yellow 10%);
+
+}

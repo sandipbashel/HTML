@@ -1,0 +1,25 @@
+.animation_div{
+	height: 100px;
+	width: 150px;
+	background-color: green;
+	position: relative;
+	animation: animation 2s infinite;
+	border-radius: 50px;
+}
+@keyframes animation{
+	from{
+
+		left: 0px;
+		top: 0px;
+
+	}
+	to{
+		left: 400px;
+		top: 500px;
+	}
+}
+.animation_div h1{
+	position: absolute;
+	top: 10px;
+	color: white;
+}

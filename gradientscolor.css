@@ -1,0 +1,24 @@
+.gradients{
+	height: 435px;
+	width: 100%;
+	background-color: green;
+	/*background-image: linear-gradient(to right, red,yellow,blue)
+	*/
+	/*background-image:linear-gradient(rgb(246, 241, 255),rgb(191, 123, 255))*/
+	/*background-image:radial-gradient(rgb(191, 123, 255),red,blue,yellow)
+
+*/
+background-image:repeating-radial-gradient(red ,blue 10%,yellow 10%);
+
+
+
+}
+.boxshadow{
+	height: 100px;
+	width: 100px;
+	background-color:blue;
+	box-shadow: 25px 20px 10px blue ; 
+}
+h1{
+	text-shadow: 20px 15px 10px red;
+}

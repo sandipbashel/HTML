@@ -1,0 +1,52 @@
+.loading{
+	height: 300px;
+	width: 300px;
+	border: 25px solid black;
+	border-radius: 50%;
+	border-top: 20px solid blue;
+	border-right: 20px solid green;
+	border-bottom: 20px solid red;
+	border-left: 20px solid gold;
+	animation: 2s loadings  linear infinite alternate;
+
+}
+hr{
+	height: 10px;
+	position: relative;
+	top: 331px;
+	background-color: red;
+
+}
+@keyframes loadings{
+	0%{transform: rotate(0deg);
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	100%{
+		transform: rotate(360deg);
+		position: absolute;
+		top: 0px;
+		left: 75%;
+	}
+}
+.pagination{
+	margin-left: 500px;
+	position: absolute;
+	top: 400px;
+
+
+}
+.pagination a{
+	padding: 15px;
+	text-decoration: none;
+	border: 1px solid black;
+
+}
+.pagination .active{
+	background-color: green;
+	color: white;
+	border-radius: 10px;
+}
+
+

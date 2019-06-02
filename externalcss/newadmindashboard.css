@@ -1,0 +1,37 @@
+body{
+	background-image:url(DPW+Norway+2019-1.jpg);
+}
+
+
+.header{
+	height: 100px;
+	width: 1225px;
+	background-color: red;
+	margin-left: 45px;
+}
+.left{
+	height:300px; 
+	width:305px;
+	float: left;
+	
+}
+ul{
+	list-style: none;
+}
+ul li a{
+	display: block;
+	text-decoration: none;
+	line-height: 30px;
+	border: solid black;
+	padding: 11px;
+
+	
+}
+.right{
+	margin-top:;
+	height: 300px;
+	width:967px;
+	background-color: green;
+	float: left;
+
+}

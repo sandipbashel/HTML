@@ -1,0 +1,23 @@
+.loadimg{
+	height: 300px;
+	width: 300px;
+	border: 20px solid gold;
+	border-radius: 50%;
+	border-top: 20px solid red;
+	animation: load 5s linear infinite;
+}
+@keyframes load{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+
+}
+img{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 28px;
+	left:28px;
+	border-radius: 50%;
+	animation: load 5s linear infinite;
+}
+

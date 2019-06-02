@@ -1,0 +1,28 @@
+.boxshadow{
+	height: 100px;
+	width: 100px;
+	background-color:blue;
+	box-shadow: 25px 20px 10px blue ; 
+}
+h1{
+	text-shadow: 20px 15px 10px red;
+
+}
+.pagination{
+	margin-left: 500px;
+	position: absolute;
+	top: 400px;
+
+
+}
+.pagination a{
+	padding: 15px;
+	text-decoration: none;
+	border: 1px solid black;
+
+}
+.pagination .active{
+	background-color: green;
+	color: white;
+	border-radius: 10px;
+}

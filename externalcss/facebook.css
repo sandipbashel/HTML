@@ -1,0 +1,43 @@
+.container-fluid
+{
+	height: 100px;
+	width: 100%;
+	background-color: #000099;
+}
+.navbar-brand
+{	position: absolute;
+	color: white;
+	font-size: 600px;
+	margin-left: 137px;
+	margin-top: 36px;
+}
+.lab
+{	position: absolute;
+	color: white;
+	margin-left: 679px;
+	margin-top: 7px;
+	
+
+}
+.input 
+{	position: absolute;
+	margin-top: 47px;
+	margin-left: 644px;
+}
+.top
+{	position: absolute;
+	color: white;
+	margin-top:16px;
+	margin-left: 935px;
+}
+.passboot
+{	position: absolute;
+	margin-left: 891px;
+	margin-top: 47px;
+}
+.btn-top
+{
+	position: absolute;
+	margin-left: 1090px;
+	margin-top: 29px;
+}

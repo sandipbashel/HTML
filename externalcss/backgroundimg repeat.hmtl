@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>background img</title>
+</head>
+<body>
+	<div class="head">
+		<img src="C:\Users\toshiba\Downloads\imgtitanic.jpg">
+	</div>
+
+<h1>Hello World!</h1>
+<p>Strange background image...</p>
+
+</body>
+</html>
+		

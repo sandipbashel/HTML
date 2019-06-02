@@ -1,0 +1,10 @@
+.simplepagination{
+	text-align: center;
+	top: 100px;
+}
+.simplepagination a{
+	padding: 10px;
+	text-decoration: none;
+	border: 1px solid black;
+
+}

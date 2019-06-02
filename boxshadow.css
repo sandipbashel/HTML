@@ -1,0 +1,10 @@
+.boxshadow{
+	height: 100px;
+	width: 100px;
+	background-color:blue;
+	box-shadow: 25px 20px 10px blue ; 
+}
+h1{
+	text-shadow: 20px 15px 10px red;
+
+}

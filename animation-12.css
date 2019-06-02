@@ -1,0 +1,15 @@
+.animation12{
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	position: relative;
+	animation: animation12 3s infinite;
+
+}
+@keyframes animation12{
+	0%{background-color:red; left: 0px;  top: 0px;}
+	25%{background-color: gray; left: 200px; top:0px;}
+	50%{background-color: blue; left: 200px; top: 200px;}
+	75%{background-color: black; left: 0px; top: 200px;}
+	100%{background-color: pink; left: 0px; top: 0px;}
+}

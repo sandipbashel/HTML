@@ -1,0 +1,21 @@
+.animation_1{
+	height: 115px;
+	width: 146px;
+	position: relative;
+	animation: animation_1 2s;
+	border-radius: 10px;
+	background-color: red;
+}
+@keyframes animation_1{
+	0%{background-color: red;}
+	25%{background-color: yellow;}
+	50%{background-color: blue;}
+	100%{background-color: green;}
+}
+.animation_1 h1{
+	animation 
+	position: absolute;
+	top: 10px;
+	color: black;
+	left: 5px;
+}

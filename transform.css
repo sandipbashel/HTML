@@ -1,0 +1,20 @@
+div{
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	transition: 2s width;
+
+}
+#Linear{transition-timing-function: linear;}
+/*specifies a transition effect with the same speed from start to end*/
+#ease{transition-timing-function:ease;}
+/*specifies a transition effect with a slow start,then fast,then end slow*/
+#ease-in{transition-timing-function:ease-in;}
+/*specifies a transition effect with a slow start*/
+#ease-out{transition-timing-function:ease-out;}
+/*specifies a transition effect with a slow end*/
+#ease-in-out{transition-timing-function:ease-in-out;}
+/*specifies a transition effect with a slow start and end*/
+div:hover{
+	width: 300px;
+}

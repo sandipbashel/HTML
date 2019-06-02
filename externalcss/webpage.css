@@ -1,0 +1,111 @@
+.header{
+	height: 100px;
+	width: 100%;
+	background-color:green;
+	text-align: center;
+}
+nav{
+	height: 100px;
+	width: 100%;
+	background-color: red;
+}
+ul{
+	list-style: none;
+}
+li{
+	float: left;
+}
+ul li a{
+	display:block;
+	width: 100px;
+	line-height: 100px;
+	text-decoration: none;
+	text-align: center;
+
+}
+ul li a:hover{
+	background-color: yellow;
+	color: white;
+}
+input[type="text"]{
+	margin-left:600px;
+	margin-top: 40px;
+}
+label{
+	position: absolute;
+	margin-left: 539px;
+	margin-top: 40px;
+}
+.left img{
+	height: 400px;
+	width: 100%;
+	position: relative;
+}
+.left .one{
+	position: absolute;
+	top: 250px;
+	left: 9px;
+	height:200px;
+	width: 400px;
+	background-color: red;
+	color: white;
+	opacity: 0.5;
+
+}
+
+.left .two{
+	position: absolute;
+	top: 250px;	
+	left: 476px;
+	height:200px;
+	width: 400px;
+	background-color: green;
+	color: white;
+	opacity: 0.5;
+}
+
+.three{
+	position: absolute;
+	top: 250px;
+	left: 937px;
+	height:200px;
+	width: 400px;
+	background-color: blue;
+	color: white;
+	opacity: 0.5;
+}
+.img-one{
+	position: absolute;
+	top: 500px;
+	left: 250px;
+	height:100px;
+	width: 300px;
+	background-color: white;
+	color: black;
+	opacity: 0.5;
+}
+/*.img-two{
+	position: absolute;
+	top: 250px;
+	left: 250px;
+	height:100px;
+	width: 300px;
+	background-color: white;
+	color: black;
+	opacity: 0.5;
+}*/
+.left .one button:hover{
+	background-color:black;
+	color: green;
+	border: none;
+	/*width: 100px;*/
+	
+}
+.left .two button:hover{
+	background-color:tomato;
+	color: black;
+}
+.left .three button:hover{
+	background-color:white;
+
+}

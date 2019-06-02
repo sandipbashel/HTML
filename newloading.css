@@ -1,0 +1,18 @@
+.load{
+	height: 200px;
+	width: 200px;
+	border: 30px solid black;
+	border-radius: 50%;
+	border-top:30px solid red;
+	animation: load 6s linear infinite;
+
+}
+@keyframes load{
+	0%{transform:rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+h1{
+	position: absolute;
+	top: 85px;
+	left: 64px;
+}

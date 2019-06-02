@@ -1,0 +1,12 @@
+label{
+	font-size: 40px;
+}
+input[type="text"]{
+	height: 100px;
+	width: 100px;
+	border-radius:50px;
+	transition: 2s width;
+}
+input[type="text"]:hover{
+	width: 1000px; 
+}

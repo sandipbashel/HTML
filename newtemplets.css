@@ -1,0 +1,31 @@
+*{
+	margin: auto;
+	padding: 0px;
+}
+.header{
+	height: 100px;
+	width: 100px;
+}
+/*.header img{
+	height: 100px;
+	width: 700%;
+}*/
+ul{
+	list-style: none; 
+}
+li{
+	float: left;
+}
+ul li{
+		display: block;
+		width: 100px;
+		line-height: 100px;
+		text-decoration: none;
+		text-align: center;
+}
+.center img{
+	height: 100px;
+	width: 40px;
+
+
+}

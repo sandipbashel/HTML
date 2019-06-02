@@ -1,0 +1,63 @@
+.one{
+
+	text-align: center;
+	border-style: solid;
+	background-color: gray;
+	padding: 30px;
+
+}
+
+nav{
+
+
+	background-color: gray;
+	height: 100px;
+	width: 200%;
+
+}
+
+ul{
+
+
+	list-style: none;
+}
+
+ul li{
+
+
+	float: left;
+	border-left: 1px solid black;
+}
+
+ul li a{
+
+
+	display: block;
+	width: 200px;
+	text-decoration: none;
+	line-height: 100px;
+	text-align: center;
+
+
+}
+
+ul li a:hover{
+
+	background-color: red;
+}
+
+.two{
+	height: 200px;
+	width: 100px;
+	border-style: solid;
+
+}
+
+button:hover{
+	background-color: blue;
+
+}
+.two img{
+	border-style: solid;
+}
+	

@@ -1,0 +1,30 @@
+.loading{
+	height: 300px;
+	width: 300px;
+	border: 20px solid green;
+	border-radius: 50%;
+	border-top:20px solid red;
+	animation: load 6s linear infinite;
+
+}
+@keyframes load{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+h1{
+	position: absolute;
+	top: 136px;
+	left: 100px;
+	color: white;
+}
+img{
+	
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top:28px;
+	left:28px;
+	border-radius: 50%;
+	animation: load 6s linear infinite;
+
+}

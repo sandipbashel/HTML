@@ -1,0 +1,14 @@
+.form{
+	background-color:purple;
+	border:10px solid black;
+	color:white;
+	float: right;
+}
+img{
+	float:left;
+
+}
+button:hover{
+		background-color: red;
+
+}

@@ -1,0 +1,26 @@
+.main{
+	height: 100px;
+	width: 100%;
+	background-color: green;
+}
+.side{
+	height: 400px;
+	width: 45%;
+	background-color: lightblue;
+	float: left;
+}
+.right{
+	height: 400px;
+	width: 55%;
+	background-color: red;
+	float: left;
+}
+ul li{
+	list-style: none;
+	border-style: solid;
+}
+/*.side one:hover{
+	background-color: black;
+	color: green;
+}
+*/
